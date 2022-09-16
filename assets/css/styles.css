@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  background-image: url(../img/bg.svg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #121214;
+
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  line-height: 160%;
+}
+
+header div {
+	width: 128px;
+	height: 128px;
+	padding: 4px;
+	background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+	border-radius: 50%;
+
+	margin: 0 auto;
+	margin-top: 32px;
+}
+
+header img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: 0 auto;
+	margin-top: 28px;
+	margin-bottom: 44px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+section {
+	background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+	padding-top: 4px;
+	border-radius: 10px;
+}
+
+section div {
+	padding: 24px 32px 32px;
+	background: #2A2634;
+	border-radius: 8px;
+}
+
+section h2 {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.47px;
+
+	color: #ffffff;
+}
+
+section p {
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.18px;
+
+	color: #A1A1AA;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-top: 24px;
+}
+
+.games-list img {
+	width: 90px;
+	height: 120px;
+	border-radius: 8px;
+}
+
+.channels-list img {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #443E54;
+	border-radius: 50%;
+}
